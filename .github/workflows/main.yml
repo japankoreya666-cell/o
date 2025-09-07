@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: chmod +x *
-      - run: sudo ./Spike 20.235.51.86 26101 240 900 1500
+      - run: sudo ./Spike 20.235.51.86 26101 240 900 1024
