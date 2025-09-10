@@ -20,4 +20,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: chmod +x *
-      - run: ./Spike 20.204.17.190 10838 200 900 1024
+      - run: ./Spike 52.140.18.38 25599 200 900 1024
